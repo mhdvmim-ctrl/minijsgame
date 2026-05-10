@@ -16,6 +16,7 @@ function js1() {
         alert('siz tizimga kirdingiz')
     } else {
         alert('sizda xatolik yuz berdi iltimos qaytadan urunib kring agar tizimda nosozlik bolsa (+998)-91-337-0-02 ga aloqaga chiqing')
+        return
     }
     //oyin boshlanishi
     alert('oyinni boshlash')
