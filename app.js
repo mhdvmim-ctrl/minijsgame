@@ -4,20 +4,14 @@ function js1() {
 
     alert('1-royxatdan otish kerak')
     //royxatdan otish
-    let login = prompt('login')
+    let login = prompt('Ismingiz')
 
-    let pass = prompt('password')
+    let pass = prompt('yoshingiz')
 
-    let num = +prompt('sizga berilgan ID raqam')
+    let num = +prompt('telefon raqamingiz')
 
     alert('tekshirilmoqda........')
 
-    if (login == 'admin' && pass == 'admin' && num == 2010) {
-        alert('siz tizimga kirdingiz')
-    } else {
-        alert('sizda xatolik yuz berdi iltimos qaytadan urunib kring agar tizimda nosozlik bolsa (+998)-91-337-0-02 ga aloqaga chiqing')
-        return
-    }
     //oyin boshlanishi
     alert('oyinni boshlash')
     alert('oyin shartlari siz togri bergan javobingizga 1ta kod beriladi oyin oxirida kodni kiritasiz ')
@@ -105,7 +99,7 @@ function js1() {
         ball += 1
     }
 
-    alert('tabriklaymiz oyinimizni tugatdingiz sizni balingiz >>>' + ball +'ball')
+    alert('tabriklaymiz ' + login + ' oyinimizni tugatdingiz sizni balingiz >>>' + ball +'ball')
 
     alert('sizni yana oyinda kutib qolamiz')
 }
